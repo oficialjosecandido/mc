@@ -7,19 +7,14 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { UserService } from './core/user.service';
 
 export const firebaseConfig: FirebaseOptions = {
-  apiKey: "AIzaSyARlbwlPRHTw3u1hcZVMcJulYGq-ly1x5U",
-
-  authDomain: "testproject-4d8cc.firebaseapp.com",
-
-  projectId: "testproject-4d8cc",
-
-  storageBucket: "testproject-4d8cc.appspot.com",
-
-  messagingSenderId: "35615834005",
-
-  appId: "1:35615834005:web:9d3eb4f35c24465361009c",
-
-  measurementId: "G-XC6X8J7763"
+  apiKey: "AIzaSyDHanhDcIEgrSkqUYJrN6qdR79Hck1VA10",
+  authDomain: "mc2024-287f4.firebaseapp.com",
+  databaseURL: "https://mc2024-287f4-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "mc2024-287f4",
+  storageBucket: "mc2024-287f4.appspot.com",
+  messagingSenderId: "369031448977",
+  appId: "1:369031448977:web:5cf6354594270ea22cf230",
+  measurementId: "G-5Z6KQ4RLR5"
 
 };
 

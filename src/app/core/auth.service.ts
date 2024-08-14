@@ -9,14 +9,6 @@ export class AuthService {
    public afAuth: AngularFireAuth
  ) {}
 
-  doFacebookLogin() {
-    return this.authLogin(new FacebookAuthProvider());
-  }
-
-  doTwitterLogin() {
-    return this.authLogin(new TwitterAuthProvider());
-  }
-
   doGoogleLogin() {
     return this.authLogin(new GoogleAuthProvider());
   }
@@ -26,6 +18,7 @@ export class AuthService {
   }
 
   doLogin(email: string, password: string) {
+    console.log(email, password);
     return this.afAuth.signInWithEmailAndPassword(email, password);
   }
 

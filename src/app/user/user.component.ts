@@ -76,4 +76,12 @@ export class UserComponent implements OnInit {
     });
   }
 
+  callNext() {
+    this.userService.callNext();
+  }
+
+  resetQueue() {
+    this.userService.resetQueue();
+  }
+
 }

@@ -6,11 +6,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyBmNkRGMwyD_Z6sPYY3FtKI4H9w7kUzYi4",
-    authDomain: "cohesive-apogee-95023.firebaseapp.com",
-    databaseURL: "https://cohesive-apogee-95023.firebaseio.com",
-    projectId: "cohesive-apogee-95023",
-    storageBucket: "cohesive-apogee-95023.appspot.com",
-    messagingSenderId: "546552200902"
+    apiKey: "AIzaSyDHanhDcIEgrSkqUYJrN6qdR79Hck1VA10",
+    authDomain: "mc2024-287f4.firebaseapp.com",
+    databaseURL: "https://mc2024-287f4-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "mc2024-287f4",
+    storageBucket: "mc2024-287f4.appspot.com",
+    messagingSenderId: "369031448977",
+    appId: "1:369031448977:web:5cf6354594270ea22cf230",
+    measurementId: "G-5Z6KQ4RLR5"
   }
 };

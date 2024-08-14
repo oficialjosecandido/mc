@@ -1,0 +1,8 @@
+<div>
+  <h1 *ngIf="userQueueNumber !== null">Your Queue Number: {{ userQueueNumber }}</h1>
+  <h1 *ngIf="userQueueNumber === null">You haven't joined the queue yet.</h1>
+  <h1>Join the Queue</h1>
+  <button (click)="joinQueue()" [disabled]="buttonDisabled">Join me to the queue</button>
+  <p>Current queue count: {{ (queueCount | async)?.count }}</p>
+</div>
+
